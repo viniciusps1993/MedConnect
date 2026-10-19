@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MDCT_CIDADE_BAIRRO" directorySegmentName="seg_0" id="5E9861B3-91BD-184B-B234-DEC0E5533A71">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:37:48 UTC</createdTime>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<sourcePk>5632B697-9714-EB3C-BF06-08F00CB144E2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B108EA60-F6A5-185B-2D92-56F69F4099F5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F573CD15-7D75-080F-9084-39156B0AF786</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

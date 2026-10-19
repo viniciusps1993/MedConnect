@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F573CD15-7D75-080F-9084-39156B0AF786" name="T_MDCT_BAIRRO">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:37:48 UTC</createdTime>
+<generatorID>BADB545A-523E-2BF2-AD20-71BF84B20E45</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_BAIRRO" id="4DDB0CE3-10A7-6F0A-7FEB-9AD24A154162">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:37:48 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo interno para garantir o cadastro dos  Bairros da Cidade do Estado do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo interno para garantir o cadastro dos  Bairros da Cidade do Estado do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<importedID>1ECB01D1-8E17-7B14-467D-D88496EA9B1D</importedID>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CIDADE" id="E79CF054-5ED2-63B9-E870-B2456FFF9902">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:37:48 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório e será preenchido automaticamente pelo sistema.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório e será preenchido automaticamente pelo sistema.]]></commentInRDBMS>
+<generatorID>5E9861B3-91BD-184B-B234-DEC0E5533A71</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<importedID>5399781E-C2A3-BCDF-451E-1EFD251121BE</importedID>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<referedAttribute>B54CD31D-B1A6-BE17-3E7D-70D3A4C5AE6B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BAIRRO" id="19C4B1BF-68C9-67AD-D8E7-9095A4152FD8">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:37:48 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o nome do Bairro  pertencente Cidade do Estado Brasileiro. O padrão de armazenmento é  InitCap e seu conteúdo é obrigatório. Essa tabela já será preenchida pela área responsável. Novas inseções necessitam ser avaladas pelos gestores.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o nome do Bairro  pertencente Cidade do Estado Brasileiro. O padrão de armazenmento é  InitCap e seu conteúdo é obrigatório. Essa tabela já será preenchida pela área responsável. Novas inseções necessitam ser avaladas pelos gestores.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<importedID>4F97E991-74E6-E464-55EA-37A7930FFA85</importedID>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ZONA_BAIRRO" id="BA5FBD57-108B-5AA9-341C-D4A50E0D60CE">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:37:48 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber a localização da zona onde se encontra o bairro. Alguns exemplos: Zona Norte, Zona Sul, Zona Leste, Zona Oeste, Centro.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber a localização da zona onde se encontra o bairro. Alguns exemplos: Zona Norte, Zona Sul, Zona Leste, Zona Oeste, Centro.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<importedID>AED56D9E-F500-3879-5B17-6C1B6C9AB61A</importedID>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<constraintName>UK_T_PKD_BAIRRO_ZONA</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="CENTRO" description="Centro da Cidade"/>
+<valueDef value="ZONA LESTE" description="Zona Leste da Cidade"/>
+<valueDef value="ZONA NORTE" description="Zona Norte da Cidade"/>
+<valueDef value="ZONA OESTE" description="Zona Oeste da Cidade"/>
+<valueDef value="ZONA SUL" description="Zona Sul da Cidade"/>
+</listOfValues>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO" id="AA3B67D6-AB62-951A-2F66-BA406EA3D09A">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:37:48 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre a data de cadastro da tabela, sendo obrigatorio
+]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<importedID>3AA1061B-49F9-E23D-7E58-8A1A5DD11379</importedID>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_USUARIO" id="76B0A69F-D1CE-46E1-8A21-E2493B3FDDE1">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:37:48 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA, SENDO OBRIGATÓRIO, CONTENDO 30 CARACTERES]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o nome do usuário que realizou o cadastro na tabela, sendo obrigatório, contendo 30 caracteres]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<importedID>6004C6D4-8D8D-3646-1E84-CF873502C8F8</importedID>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32F298ED-2626-76C8-0693-6A1AF480C849" name="PK_MDCT_BAIRRO">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:37:48 UTC</createdTime>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>4DDB0CE3-10A7-6F0A-7FEB-9AD24A154162</newElementsIDs>
+<usedAttributes>
+<attributeRef>4DDB0CE3-10A7-6F0A-7FEB-9AD24A154162</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

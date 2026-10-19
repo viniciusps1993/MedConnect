@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projeto_MedConnect" id="F74C796F-9BDE-C730-9867-601A80CD5FC5" version="3.5">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:18:02 UTC</createdTime>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F74C796F-9BDE-C730-9867-601A80CD5FC5</designId>
+</OSDM_Design>

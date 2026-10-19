@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="1CF8B9F6-CCE1-16F5-EFCB-5A447DB17BF5">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:18:02 UTC</createdTime>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

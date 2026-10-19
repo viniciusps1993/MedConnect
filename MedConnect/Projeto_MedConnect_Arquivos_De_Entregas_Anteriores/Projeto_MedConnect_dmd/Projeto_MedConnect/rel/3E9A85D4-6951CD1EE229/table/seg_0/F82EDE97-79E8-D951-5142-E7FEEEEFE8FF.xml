@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F82EDE97-79E8-D951-5142-E7FEEEEFE8FF" name="T_MDCT_EMAIL_CLIENTE">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<generatorID>7A479799-3DF6-E185-DE47-7C4F5DA7EF2C</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EMAIL" id="1617A7C0-EBB7-A160-488C-66A0DE64F271">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo contém o id do email do cliente]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo contém o id do email do cliente]]></commentInRDBMS>
+<generatorID>E88B4AE3-B67E-DAC5-891D-9405495098CF</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENTE" id="6BCB70A9-B333-1B6E-43A6-E59D2BD8E256">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo contem o id do cliente ]]></comment>
+<generatorID>559A6F48-8126-7D09-48E3-EAB53C797131</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="036DA016-0595-222E-75D1-B0F9B12A4DF1" referredColumn="FDF8848E-8E7E-BA95-B7CD-5CC31FCAA196"/>
+</associations>
+</Column>
+<Column name="DS_EMAIL" id="FBCD2395-942F-6BA6-0121-5E70FB16E1D5">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo contém a descrição do email. ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo contém a descrição do email. ]]></commentInRDBMS>
+<generatorID>CB5E36D3-E92C-6331-FA86-49054FBC9B71</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="5BC22394-BB6D-B322-8699-4C1C04FD5D8C">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></commentInRDBMS>
+<generatorID>B9B312F6-FDA5-C754-A768-41F237389A45</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="CF816A5D-2EB4-F416-BD2F-8067A0114C54">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA]]></commentInRDBMS>
+<generatorID>FA68A419-34C5-ED77-7AD2-D0E05CEA7708</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="225F103A-F06C-59E7-210D-99BF5C2D8771" name="PK_MDCT_EMAIL">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<generatorID>35B2FA2E-F83A-0BF6-3950-E6913E6804EF</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1617A7C0-EBB7-A160-488C-66A0DE64F271"/>
+<colUsage columnID="6BCB70A9-B333-1B6E-43A6-E59D2BD8E256"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F48106E-2B7F-0024-37E5-F5C287F8C865" name="FK_MDCT_CLIENTE_EMAIL">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<generatorID>98B5C21C-5CD8-4946-0CAB-75208701E87B</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BCB70A9-B333-1B6E-43A6-E59D2BD8E256"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

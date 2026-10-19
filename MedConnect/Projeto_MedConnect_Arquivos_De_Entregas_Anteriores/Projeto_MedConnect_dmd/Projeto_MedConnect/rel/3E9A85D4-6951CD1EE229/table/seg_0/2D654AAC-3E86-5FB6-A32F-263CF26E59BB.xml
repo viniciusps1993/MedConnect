@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D654AAC-3E86-5FB6-A32F-263CF26E59BB" name="T_MDCT_CIDADE">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<generatorID>B108EA60-F6A5-185B-2D92-56F69F4099F5</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CIDADE" id="E33027AA-41FD-8D25-191F-9AF90818FE35">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório e será preenchido automaticamente pelo sistema.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório e será preenchido automaticamente pelo sistema.
+
+]]></commentInRDBMS>
+<generatorID>B54CD31D-B1A6-BE17-3E7D-70D3A4C5AE6B</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ESTADO" id="5E3E44C1-0128-B5BB-7AA7-853B412658DE">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo interno para garantir unicidade dos Estados do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo interno para garantir unicidade dos Estados do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></commentInRDBMS>
+<generatorID>A8C25F34-494E-3534-3CE9-0D58815DF726</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="549E2784-CB6C-ADF9-25A2-19466C78F18A" referredColumn="8C7E93ED-B014-CE2B-5BD7-621DFFF16F55"/>
+</associations>
+</Column>
+<Column name="NM_CIDADE" id="08275B1B-EAB0-CDA5-5229-C1A6F09EAEC9">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o nome do Cidade pertencente ao Estado Brasileiro. O padrão de armazenmento é  InitCap e seu conteúdo é obrigatório. Essa tabela já será preenchida pela área responsável. Novas inseções necessitam ser avaladas pelos gestores.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o nome do Cidade pertencente ao Estado Brasileiro. O padrão de armazenmento é  InitCap e seu conteúdo é obrigatório. Essa tabela já será preenchida pela área responsável. Novas inseções necessitam ser avaladas pelos gestores.]]></commentInRDBMS>
+<generatorID>F33A69E9-E702-502F-F79B-630277EDF78C</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_IBGE" id="A00C807D-29EB-BB53-B647-7D798E870DC9">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código do IBGE que fornece informações para geração da NFe.]]></commentInRDBMS>
+<generatorID>30DD8DB8-BCFB-1F98-43D7-19D2FEA1D6F3</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_DDD" id="3970ECBF-736C-DA57-96DC-053A348FF017">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ DADOS DO NUMERO DO DDD, SENDO OBRIGATÓRIO]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ DADOS DO NUMERO DO DDD, SENDO OBRIGATÓRIO]]></commentInRDBMS>
+<generatorID>FCBAB653-F0B0-DBA5-3202-C748B01D3435</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="1EEEF42D-5C2A-DA72-DCA8-D43EE43F20F9">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre a data de cadastro da tabela, sendo obrigatorio
+]]></commentInRDBMS>
+<generatorID>EBD36947-8B61-9826-06FC-9EBF0B51D1E8</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="6A0E5B71-C150-D3CF-A839-5DB270450F0C">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA, SENDO OBRIGATÓRIO, CONTENDO 30 CARACTERES]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o nome do usuário que realizou o cadastro na tabela, sendo obrigatório, contendo 30 caracteres]]></commentInRDBMS>
+<generatorID>837138C6-C195-49C6-AA92-B1D4F90CEFAF</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A69816D3-D161-3675-362A-3BE3C92987F7" name="PK_MDCT_CIDADE">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<generatorID>5632B697-9714-EB3C-BF06-08F00CB144E2</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E33027AA-41FD-8D25-191F-9AF90818FE35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B65E0077-5AF1-D57E-087A-968B5933ED30" name="FK_MDCT_ESTADO_CIDADE">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:39 UTC</createdTime>
+<generatorID>821ACCF0-DE72-21CD-C001-EAA4AF5C3772</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E3E44C1-0128-B5BB-7AA7-853B412658DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEBDF60D-50E2-1417-8395-D39FB307F171" name="T_MDCT_FORMA_PAGT">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<generatorID>A612F335-A427-E278-086B-13299CE6A8CC</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FORMA_PAGT" id="9288F740-6CC2-99B3-DFB1-154D5FB65792">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo contem o id da forma de pagamento]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo contem o id da forma de pagamento]]></commentInRDBMS>
+<generatorID>8B50B9AD-D53D-A62C-CBC7-D599C38E660D</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRODUTO" id="80BC424D-AD21-6D2B-087F-6B19D064E9DE">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo contem o id do produto ]]></comment>
+<generatorID>5D236E88-B4E9-C9F6-7CCE-467BFE0F3376</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DB2AA1C-47C8-8938-02DE-A34B8DF38990" referredColumn="1A82585B-AAB9-00C1-190A-26C7C9B384BF"/>
+</associations>
+</Column>
+<Column name="NM_FORMA_PAGTO" id="226324F1-9BFC-D634-C2DA-38F86598AEFF">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esse conteúdo recebe o nome da forma de pagamento, seu conteúdo é obrigatório. ]]></comment>
+<commentInRDBMS><![CDATA[Esse conteúdo recebe o nome da forma de pagamento, seu conteúdo é obrigatório. ]]></commentInRDBMS>
+<generatorID>D6E8B664-404E-5778-70D4-65EAD01A92B0</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_FORMA_PAGTO" id="E2548144-13F0-E09F-5EF1-FDBF06067587">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a descrição da forma de pagamento, seu conteúdo é opcional. ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a descrição da forma de pagamento, seu conteúdo é opcional. ]]></commentInRDBMS>
+<generatorID>4D5D85E7-8712-1663-95E8-3D9032E8B863</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="49C16440-7D49-33ED-7244-B19575D36369">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></commentInRDBMS>
+<generatorID>B8203C1E-B72D-1285-5468-8324C8C02948</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="B67873F6-4722-8296-2D21-F3738AA60952">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA]]></commentInRDBMS>
+<generatorID>B89766D3-1CB9-FEDF-438F-D603C6EADF97</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49393108-5C19-4586-1195-A46B1BD57A6F" name="PK_MDCT_FORMA_PAGT">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<generatorID>8EE6DB31-486B-B687-2799-AA61E142124B</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9288F740-6CC2-99B3-DFB1-154D5FB65792"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3A71C30-D9DD-9BE1-9FAF-CFF44A4D8ACE" name="FK_MDCT_PROD_PAG">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:39 UTC</createdTime>
+<generatorID>B1ED5E02-4C58-F1CC-E992-590779A7727E</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80BC424D-AD21-6D2B-087F-6B19D064E9DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

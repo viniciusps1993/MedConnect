@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MDCT_CLIENTE_EMAIL" directorySegmentName="seg_0" id="98B5C21C-5CD8-4946-0CAB-75208701E87B">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 19:54:52 UTC</createdTime>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<sourcePk>F0B0D62A-1FB9-B6D0-4AD0-3CF50C60C065</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>02CFE79D-9FC4-C672-03A8-10755996EF3D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A479799-3DF6-E185-DE47-7C4F5DA7EF2C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

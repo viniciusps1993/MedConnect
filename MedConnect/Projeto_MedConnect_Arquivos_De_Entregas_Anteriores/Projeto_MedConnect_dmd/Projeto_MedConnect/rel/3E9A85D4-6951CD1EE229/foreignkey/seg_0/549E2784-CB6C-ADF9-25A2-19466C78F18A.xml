@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="549E2784-CB6C-ADF9-25A2-19466C78F18A" containerWithKeyObject="2D654AAC-3E86-5FB6-A32F-263CF26E59BB" localFKIndex="B65E0077-5AF1-D57E-087A-968B5933ED30" name="FK_MDCT_ESTADO_CIDADE">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:39 UTC</createdTime>
+<generatorID>821ACCF0-DE72-21CD-C001-EAA4AF5C3772</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<referredTableLongName>T_MDCT_ESTADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>55E36E34-6082-488E-63A6-813EE89A2581</referredTableID>
+<keyObject>7FFC14D2-5A03-27B2-3B27-2E5CC925D8AC</keyObject>
+<referredKeyID>7FFC14D2-5A03-27B2-3B27-2E5CC925D8AC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESTADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

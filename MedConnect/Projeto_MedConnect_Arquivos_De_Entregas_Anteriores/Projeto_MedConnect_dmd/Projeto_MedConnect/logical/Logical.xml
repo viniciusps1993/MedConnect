@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="5C6571A6-5CBC-9630-E0AB-E1C29AD40226" mainViewID="DA686541-98D3-8968-D449-907D8D632159">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:18:02 UTC</createdTime>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

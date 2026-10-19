@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7018FB12-3CB1-CAFC-E732-EE1713B9C8A2" name="T_MDCT_ESTADO">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:37:48 UTC</createdTime>
+<generatorID>DB5BED7F-2AEF-7CEF-DFC4-5E620099C699</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ESTADO" id="90F9E77A-C58C-EC53-70F9-958CE3B86D94">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:37:48 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo interno para garantir unicidade dos Estados do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo interno para garantir unicidade dos Estados do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<importedID>29565B2C-9238-D133-53D1-0C1B837174E3</importedID>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SG_ESTADO" id="826A4307-F8D1-FD1F-682E-8372BE0891F0">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:37:48 UTC</createdTime>
+<comment><![CDATA[Esta coluna ira receber a siga do Estado. Esse conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna ira receber a siga do Estado. Esse conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<importedID>3590F6AD-243A-0A2A-02A3-9168016DB796</importedID>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ESTADO" id="00FEA7F8-143F-CD58-AED1-2FB28A369E59">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:37:48 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o nome do estado. O padrão de armazenmento é  InitCap e seu conteúdo é obrigatório. Essa tabela já será preenchida pela área responsável. Novas inseções necessitam ser avaladas pelos gestores.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o nome do estado. O padrão de armazenmento é  InitCap e seu conteúdo é obrigatório. Essa tabela já será preenchida pela área responsável. Novas inseções necessitam ser avaladas pelos gestores.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<importedID>B80E6F68-7B9C-559C-01A5-7ED15B473499</importedID>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO" id="37C8F905-15C9-1E78-C22D-B39C17E9B372">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:37:48 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre a data de cadastro da tabela, sendo obrigatorio
+]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<importedID>C079CDB2-D3B1-CD96-41C6-327D51CFA774</importedID>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_USUARIO" id="5D9BE14A-28D4-9755-31F8-A7C001C7741D">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:37:48 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA, SENDO OBRIGATÓRIO, CONTENDO 30 CARACTERES]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o nome do usuário que realizou o cadastro na tabela, sendo obrigatório, contendo 30 caracteres]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<importedID>A2C90131-A030-EDD5-C178-0A051D6DCA5D</importedID>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="35627145-82BC-452E-2CB2-2EE71CF3801D" name="PK_MDCT_ESTADO">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:37:48 UTC</createdTime>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>90F9E77A-C58C-EC53-70F9-958CE3B86D94</newElementsIDs>
+<usedAttributes>
+<attributeRef>90F9E77A-C58C-EC53-70F9-958CE3B86D94</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

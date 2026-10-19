@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MDCT_BAIRRO_LOGRADOURO" directorySegmentName="seg_0" id="641D0108-CCAE-2414-2724-E01F752EF80E">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:54:14 UTC</createdTime>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<sourcePk>32F298ED-2626-76C8-0693-6A1AF480C849</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F573CD15-7D75-080F-9084-39156B0AF786</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>30B63A5B-27EC-BA43-3F1F-DFD1794D9E1E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

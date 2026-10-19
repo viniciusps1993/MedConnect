@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="22325796-85B7-7A63-5615-8421F12892F8" containerWithKeyObject="347E15AA-6A88-7959-8EBD-9410DE421A52" localFKIndex="52FF22C0-8283-8CF8-F909-7FB6DF49D9DC" name="FK_MDCT_CLIENTE_CONT">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<generatorID>75FAD2DD-0DC0-662F-7473-05B0BB191528</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<referredTableLongName>T_MDCT_CLIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA576566-C43B-581C-C76D-96FD5A1415EF</referredTableID>
+<keyObject>1E26D4F5-9314-3517-2DF5-0F9F2A19770F</keyObject>
+<referredKeyID>1E26D4F5-9314-3517-2DF5-0F9F2A19770F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CLIENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

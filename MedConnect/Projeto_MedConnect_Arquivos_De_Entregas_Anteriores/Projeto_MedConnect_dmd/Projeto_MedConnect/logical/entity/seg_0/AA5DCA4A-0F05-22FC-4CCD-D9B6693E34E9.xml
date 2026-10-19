@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AA5DCA4A-0F05-22FC-4CCD-D9B6693E34E9" name="T_MDCT_PRODUTO">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:40:52 UTC</createdTime>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PRODUTO" id="72410F9E-496F-CAD6-8E38-23956CAB85BC">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 19:47:03 UTC</createdTime>
+<comment><![CDATA[Esse atributo contem o id do produto ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo contem o id do produto ]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_PRODUTO" id="E3609FE5-3B5D-B5BE-7505-8F320868FD6A">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:42:51 UTC</createdTime>
+<comment><![CDATA[Esse conteúdo contém o nome do produto, o seu conteúdo é obrigatório. ]]></comment>
+<commentInRDBMS><![CDATA[Esse conteúdo contém o nome do produto, o seu conteúdo é obrigatório. ]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PRODUTO" id="D25A0AC0-395B-BB51-3559-13EF42616FBD">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:43:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a descrição do produto, o seu conteúdo é obrigatório ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a descrição do produto, o seu conteúdo é obrigatório ]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QT_ESTOQUE" id="8227B118-2BBD-2AB5-F2F5-6BBFCB16C139">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:46:09 UTC</createdTime>
+<comment><![CDATA[Esse item contém a quantidade do produto em estoque, seu conteúdo é obrigatório. ]]></comment>
+<commentInRDBMS><![CDATA[Esse item contém a quantidade do produto em estoque, seu conteúdo é obrigatório. ]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CT_PRODUTO" id="61D3254D-B008-EB1B-2291-68B766CDB2A1">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:48:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe informações sobre a categoria do produto. ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe informações sobre a categoria do produto. ]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_PRODUTO" id="B6684BD3-D0D3-A221-00F2-3B43D84795C6">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:51:58 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o valor do produto, o seu conteúdo é obrigatório. ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o valor do produto, o seu conteúdo é obrigatório. ]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO" id="30B9D465-18DC-32DB-F669-A2AD3D8FE842">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:53:14 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_USUARIO" id="A2CB5D6B-07E1-0E45-9685-13725FDD13E2">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:53:14 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B99091AD-BF03-BCE1-7220-61771575CD8B" name="PK_MDCT_PRODUTO">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 19:48:03 UTC</createdTime>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>72410F9E-496F-CAD6-8E38-23956CAB85BC</newElementsIDs>
+<usedAttributes>
+<attributeRef>72410F9E-496F-CAD6-8E38-23956CAB85BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

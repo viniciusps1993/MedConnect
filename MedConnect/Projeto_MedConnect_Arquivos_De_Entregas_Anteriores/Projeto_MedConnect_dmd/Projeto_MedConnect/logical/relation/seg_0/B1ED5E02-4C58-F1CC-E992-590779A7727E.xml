@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MDCT_PROD_PAG" directorySegmentName="seg_0" id="B1ED5E02-4C58-F1CC-E992-590779A7727E">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:38:13 UTC</createdTime>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<sourcePk>B99091AD-BF03-BCE1-7220-61771575CD8B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AA5DCA4A-0F05-22FC-4CCD-D9B6693E34E9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A612F335-A427-E278-086B-13299CE6A8CC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

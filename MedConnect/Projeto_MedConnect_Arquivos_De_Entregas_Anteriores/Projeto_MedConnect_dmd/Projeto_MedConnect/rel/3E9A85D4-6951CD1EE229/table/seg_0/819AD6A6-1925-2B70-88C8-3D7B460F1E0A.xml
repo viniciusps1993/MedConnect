@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="819AD6A6-1925-2B70-88C8-3D7B460F1E0A" name="T_MDCT_COMPRA">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<generatorID>79E9664F-90C2-2B6A-A69E-F8F05F943214</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMPRA" id="30EFD879-1138-B378-5DA5-A42BF639E8CC">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo contém o id da compra]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo contém o id da compra]]></commentInRDBMS>
+<generatorID>52ADBC1B-AC97-32DC-90EB-A518C036AF21</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENTE" id="A4C0E478-ACA2-524D-97ED-53D4A2A3E2C3">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo contem o id do cliente ]]></comment>
+<generatorID>DFD67129-2F53-D1B4-EBF0-90C18F0CFE9E</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6664021-8D43-DCFB-07A1-91D1A1813E32" referredColumn="FDF8848E-8E7E-BA95-B7CD-5CC31FCAA196"/>
+</associations>
+</Column>
+<Column name="ID_PRODUTO" id="C1FF3CBB-B80B-7626-B793-7B0E09A25B30">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo contem o id do produto ]]></comment>
+<generatorID>746AFE52-DADA-53B2-9F53-71378F25F446</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79B50E13-CBC7-903F-878D-8208801CA8AC" referredColumn="1A82585B-AAB9-00C1-190A-26C7C9B384BF"/>
+</associations>
+</Column>
+<Column name="QT_COMPRA" id="0C5FD4B3-DB75-379D-535D-729942E90610">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo ira receber a quantidade de produtos comprados. ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo ira receber a quantidade de produtos comprados. ]]></commentInRDBMS>
+<generatorID>B9EDFD24-F527-BC6F-6D58-7F42AC96FDB2</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_COMPRA" id="CE55FBBE-79B9-1188-F17A-B921A2573031">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o valor da compra, seu conteúdo é obrigatorio. ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o valor da compra, seu conteúdo é obrigatorio. ]]></commentInRDBMS>
+<generatorID>CC00A988-51AB-3C20-ABDA-DBEF46946E60</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_ENTREGA" id="3CEA7BE7-1BF8-B3FC-EB72-CF06D1927224">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo ira receber o endereço de entrega da compra, seu conteúdo é opcional. ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo ira receber o endereço de entrega da compra, seu conteúdo é opcional. ]]></commentInRDBMS>
+<generatorID>5B004FA1-6F0A-0AA6-EB34-ECDD081FD76C</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="A7BFB586-B25F-07B2-6B3A-72E7E9A4B41F">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></commentInRDBMS>
+<generatorID>E38195C7-D6F3-2DE3-2436-75B2F0DEF10E</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="F906EF5D-7849-7CD3-C9E6-5FB86EC6015F">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA]]></commentInRDBMS>
+<generatorID>5377786E-7FC6-1B71-8229-8FAA05E197B0</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15C6327E-4FF2-180F-4117-8DC25A59B688" name="PK_MDCT_COMPRA">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:38 UTC</createdTime>
+<generatorID>A0CA8E2E-500C-F114-0614-C803CEC61FEB</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30EFD879-1138-B378-5DA5-A42BF639E8CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CD8AB3E-9D4B-8A19-ED2B-982108B4364B" name="FK_MDCT_CLIENTE_COMPRA">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:39 UTC</createdTime>
+<generatorID>75C06C79-C300-9BE1-644B-06C0AC983B78</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4C0E478-ACA2-524D-97ED-53D4A2A3E2C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A4805D1-3E4D-A6BE-3848-8B615186EEE0" name="FK_MDCT_PROD_COMPRA">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:59:39 UTC</createdTime>
+<generatorID>801B91BF-119A-D933-DEB5-67B021415BB6</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1FF3CBB-B80B-7626-B793-7B0E09A25B30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

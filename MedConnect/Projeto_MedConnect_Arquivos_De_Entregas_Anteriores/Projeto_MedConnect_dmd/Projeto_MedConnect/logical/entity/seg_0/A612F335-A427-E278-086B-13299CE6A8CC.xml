@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A612F335-A427-E278-086B-13299CE6A8CC" name="T_MDCT_FORMA_PAGT">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:14:47 UTC</createdTime>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_FORMA_PAGT" id="8B50B9AD-D53D-A62C-CBC7-D599C38E660D">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 19:46:10 UTC</createdTime>
+<comment><![CDATA[Esse atributo contem o id da forma de pagamento]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo contem o id da forma de pagamento]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PRODUTO" id="5D236E88-B4E9-C9F6-7CCE-467BFE0F3376">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-12 12:38:13 UTC</createdTime>
+<comment><![CDATA[Esse atributo contem o id do produto ]]></comment>
+<generatorID>B1ED5E02-4C58-F1CC-E992-590779A7727E</generatorID>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<referedAttribute>72410F9E-496F-CAD6-8E38-23956CAB85BC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_FORMA_PAGTO" id="D6E8B664-404E-5778-70D4-65EAD01A92B0">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:16:04 UTC</createdTime>
+<comment><![CDATA[Esse conteúdo recebe o nome da forma de pagamento, seu conteúdo é obrigatório. ]]></comment>
+<commentInRDBMS><![CDATA[Esse conteúdo recebe o nome da forma de pagamento, seu conteúdo é obrigatório. ]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_FORMA_PAGTO" id="4D5D85E7-8712-1663-95E8-3D9032E8B863">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:20:19 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a descrição da forma de pagamento, seu conteúdo é opcional. ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a descrição da forma de pagamento, seu conteúdo é opcional. ]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO" id="B8203C1E-B72D-1285-5468-8324C8C02948">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:25:39 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_USUARIO" id="B89766D3-1CB9-FEDF-438F-D603C6EADF97">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 15:25:39 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8EE6DB31-486B-B687-2799-AA61E142124B" name="PK_MDCT_FORMA_PAGT">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 19:46:31 UTC</createdTime>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>8B50B9AD-D53D-A62C-CBC7-D599C38E660D</newElementsIDs>
+<usedAttributes>
+<attributeRef>8B50B9AD-D53D-A62C-CBC7-D599C38E660D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

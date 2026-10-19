@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02CFE79D-9FC4-C672-03A8-10755996EF3D" name="T_MDCT_CLIENTE ">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:20:14 UTC</createdTime>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CLIENTE" id="75B8F85A-9783-1B3E-7601-53F867DA3857">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 19:50:32 UTC</createdTime>
+<comment><![CDATA[Esse atributo contem o id do cliente ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo contem o id do cliente ]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CLIENTE" id="4B92B30B-A6C2-F494-13BD-84981D599D90">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:22:01 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá  o nome  do cliente, seu conteúdo é obrigatório. ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá  o nome  do cliente, seu conteúdo é obrigatório. ]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CPF" id="28F8D403-1BD0-5756-D9FB-4F51572E7CD4">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:35:51 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do  CPF cliente.  Seu conteúdo é obrigatório e será validado de acordo com regras de negócio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do  CPF cliente.  Seu conteúdo é obrigatório e será validado de acordo com regras de negócio.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_RG" id="C40C05C2-CC03-D3CF-3FAC-7B83C8BA75BB">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:35:51 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do  RG  cliente.  Seu conteúdo é obrigatório e será validado de acordo com regras de negócio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do  RG  cliente.  Seu conteúdo é obrigatório e será validado de acordo com regras de negócio.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LG_CLIENTE" id="20DDB69F-09E0-A8FD-37B6-173A2517D508">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:38:09 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebera o Login do cliente, o seu conteúdo é obrigatório. ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebera o Login do cliente, o seu conteúdo é obrigatório. ]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SH_CLIENTE" id="43CAAB80-53FA-05E1-4821-B3CA99A166E7">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:39:10 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebera  a senha  do cliente, o seu conteúdo é obrigatório. ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebera  a senha  do cliente, o seu conteúdo é obrigatório. ]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NASCIMENTO" id="9299F495-31E1-178E-1518-CF7A4267FDA8">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:35:51 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de nascimento do  cliente.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de nascimento do  cliente.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO" id="73A65DA2-08CD-7280-6ECB-A09C3FCBDDB3">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:35:51 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_USUARIO" id="4F724758-9F7D-1F60-10B1-85EC1EAA7711">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 14:35:51 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA]]></commentInRDBMS>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F0B0D62A-1FB9-B6D0-4AD0-3CF50C60C065" name="PK_MDCT_CLIENTE">
+<createdBy>vinicius.souza</createdBy>
+<createdTime>2024-04-11 19:50:45 UTC</createdTime>
+<ownerDesignName>Projeto_MedConnect</ownerDesignName>
+<engineerTo>
+<item key="3E9A85D4-26CA-B01C-7F97-6951CD1EE229" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>75B8F85A-9783-1B3E-7601-53F867DA3857</newElementsIDs>
+<usedAttributes>
+<attributeRef>75B8F85A-9783-1B3E-7601-53F867DA3857</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
